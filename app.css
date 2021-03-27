@@ -1,0 +1,48 @@
+body {
+  font-size: 12pt;
+  color: #006666;
+}
+h1 {
+  font-size: 18pt;
+  background-color: #AAFFFF;
+}
+pre {
+  background-color: #EEEEEE;
+}
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.swiper-navigation {
+  background: #ddd;
+}
+
+.swiper-navigation .swiper-slide {
+  padding: 20px;
+  width: auto;
+  position: relative
+}
+
+.swiper-navigation .swiper-slide.selected {
+  font-weight: bold;
+  color: red;
+}
+
+.swiper-navigation .swiper-slide.selected::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 8px 4px 0 4px;
+  border-color: red transparent transparent transparent;
+}
+
+.swiper-contents .swiper-slide {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+}
