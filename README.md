@@ -1,0 +1,1 @@
+# genshin-net.github.io
